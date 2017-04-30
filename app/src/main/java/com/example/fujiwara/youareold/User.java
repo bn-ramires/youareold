@@ -14,7 +14,7 @@ import org.joda.time.Years;
  * Created by Bruno Ramires on 27/04/2017.
  */
 
-public class User extends AppCompatActivity implements Date {
+public class User extends AppCompatActivity {
 
     LocalDate birthDate;
     LocalDate currentDate = new LocalDate();
@@ -25,19 +25,17 @@ public class User extends AppCompatActivity implements Date {
     int yearsLived;
     int monthsLived;
     int weeksLived;
-    int secondsLived = 0;
+    int secondsLived;
     int minutesLived;
     int hoursLived;
 
     public User() {
     }
 
-    @Override
     public LocalDate getBirthDate() {
         return this.birthDate;
     }
 
-    @Override
     public void setBirthDate(int year, int month, int day) {
 
         LocalDate birthDate = new LocalDate(year, month, day);
