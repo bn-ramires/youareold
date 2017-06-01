@@ -60,9 +60,9 @@ public class User extends AppCompatActivity {
                 Weeks.weeksBetween(birthDate, currentDate).getWeeks();
     }
 
-    public int getSecondsLived() { // Workaorund as getSeconds is crashing
+    public int getSecondsLived() { // Workaround as getSeconds is crashing
         return secondsLived =
-                Minutes.minutesBetween(birthDate, currentDate).getMinutes() / 60;
+                Minutes.minutesBetween(birthDate, currentDate).getMinutes() * 60;
     }
 
     public int getMinutesLived() {
