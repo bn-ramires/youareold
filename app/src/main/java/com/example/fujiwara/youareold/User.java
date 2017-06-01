@@ -10,10 +10,6 @@ import org.joda.time.Months;
 import org.joda.time.Weeks;
 import org.joda.time.Years;
 
-/**
- * Created by Bruno Ramires on 27/04/2017.
- */
-
 public class User extends AppCompatActivity {
 
     LocalDate birthDate;
@@ -64,10 +60,10 @@ public class User extends AppCompatActivity {
                 Weeks.weeksBetween(birthDate, currentDate).getWeeks();
     }
 
-//    public int getSecondsLived() {
-//        return secondsLived =
-//                Seconds.secondsBetween(birthDate, currentDate).getSeconds();
-//    }
+    public int getSecondsLived() { // Workaorund as getSeconds is crashing
+        return secondsLived =
+                Minutes.minutesBetween(birthDate, currentDate).getMinutes() / 60;
+    }
 
     public int getMinutesLived() {
         return minutesLived =
