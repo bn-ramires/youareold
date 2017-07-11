@@ -2,6 +2,15 @@
     <string name="app_name">YouAreOld</string>
     <string name="cannot_be_born_in_the_future">You cannot be born in the future!</string>
 
+    <string name="years">Years</string>
+    <string name="months">Months</string>
+    <string name="weeks">Weeks</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+
+
     <string-array name="months">
         <item>January</item>
         <item>February</item>

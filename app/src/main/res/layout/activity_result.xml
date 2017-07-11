@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fujiwara.youareold.Result"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="153dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time passed since you were born"
+        tools:layout_editor_absoluteY="63dp"
+        tools:layout_editor_absoluteX="89dp" />
+
+    <TextView
+        android:id="@+id/hours_textview"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/seconds"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:text="Seconds" />
+
+    <TextView
+        android:id="@+id/seconds_result"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:text="3,189,024,000" />
+
+    <TextView
+        android:id="@+id/minutes_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="272dp"
+        tools:text="53,150,400" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/minutes"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="272dp"
+        tools:text="Minutes" />
+
+    <TextView
+        android:id="@+id/hours_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="239dp"
+        tools:text="885,840" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/hours"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="239dp"
+        tools:text="Hours" />
+
+    <TextView
+        android:id="@+id/days_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="203dp"
+        tools:text="36,910" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/days"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="203dp"
+        tools:text="Days" />
+
+    <TextView
+        android:id="@+id/weeks_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="170dp"
+        tools:text="5,272" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/weeks"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="170dp"
+        tools:text="Weeks" />
+
+    <TextView
+        android:id="@+id/months_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="137dp"
+        tools:text="1,212" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/months"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="130dp"
+        tools:text="Months" />
+
+    <TextView
+        android:id="@+id/years_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:paddingTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/months_result"
+        tools:layout_editor_absoluteX="129dp"
+        tools:text="101" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/years"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="97dp"
+        tools:text="Years" />
+</android.support.constraint.ConstraintLayout>
