@@ -10,7 +10,16 @@ class Result : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val mainActivity = MainActivity()
-        years_result.setText(mainActivity.user.getYearsLived())
+        years_result.text = User.getYearsLived().toString()
+        months_result.text = User.getMonthsLived().toString()
+        weeks_result.text = User.getWeeksLived().toString()
+        days_result.text = User.getDaysLived().toString()
+        hours_result.text = User.getHoursLived().toString()
+        minutes_result.text = User.getMinutesLived().toString()
+        seconds_result.text = User.getSecondsLived().toString()
+        println(years_textview.text)
+        println(months_textview.text)
+        println(days_textview.text)
+        println(years_textview.textSize)
     }
 }

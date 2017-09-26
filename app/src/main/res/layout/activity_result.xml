@@ -5,98 +5,164 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.fujiwara.youareold.Result"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:text="Results"
         android:textSize="24sp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="153dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Time passed since you were born"
-        tools:layout_editor_absoluteY="63dp"
-        tools:layout_editor_absoluteX="89dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/hours_textview"
+
+        android:id="@+id/seconds_textview"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
         android:text="@string/seconds"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="305dp"
-        tools:text="Seconds" />
+        tools:text="Seconds"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.621" />
 
     <TextView
         android:id="@+id/seconds_result"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="305dp"
-        tools:text="3,189,024,000" />
+        tools:text="3,189,024,000"
+        android:layout_width="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.621" />
 
     <TextView
         android:id="@+id/minutes_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="272dp"
-        tools:text="53,150,400" />
+        tools:text="53,150,400"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.549" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/minutes_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
         android:text="@string/minutes"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="272dp"
-        tools:text="Minutes" />
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Minutes"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.549" />
 
     <TextView
         android:id="@+id/hours_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="239dp"
-        tools:text="885,840" />
+        tools:text="885,840"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.478" />
 
     <TextView
-        android:id="@+id/textView14"
+
+        android:id="@+id/hours_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
         android:text="@string/hours"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="239dp"
-        tools:text="Hours" />
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="Hours"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.478" />
 
     <TextView
         android:id="@+id/days_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="203dp"
-        tools:text="36,910" />
+        tools:text="36,910"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.406" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/days_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:paddingTop="16dp"
         android:text="@string/days"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
         tools:text="Days" />
 
     <TextView
@@ -104,18 +170,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="170dp"
-        tools:text="5,272" />
+        tools:text="5,272"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.335" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:paddingTop="16dp"
         android:text="@string/weeks"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329"
         tools:text="Weeks" />
 
     <TextView
@@ -123,37 +200,64 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="137dp"
-        tools:text="1,212" />
+        tools:text="1,212"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/months_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:paddingTop="16dp"
         android:text="@string/months"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="130dp"
-        tools:text="Months" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        tools:text="Months"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/years_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
         android:paddingTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/months_result"
-        tools:layout_editor_absoluteX="129dp"
-        tools:text="101" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="101"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/years_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         android:paddingTop="16dp"
         android:text="@string/years"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="97dp"
-        tools:text="Years" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192"
+        tools:text="Years"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 </android.support.constraint.ConstraintLayout>
